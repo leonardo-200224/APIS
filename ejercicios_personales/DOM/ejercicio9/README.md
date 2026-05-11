@@ -1,0 +1,3 @@
+```
+El primer método agrega un EventListener a cada elemento individual, lo que puede generar una carga significativa en la memoria y hacer que la aplicación sea más lenta, especialmente con listas grandes. En cambio, el segundo método utiliza el patrón de delegación, añadiendo un solo EventListener al elemento padre. Esto es más eficiente, ya que reduce el número de listeners y mejora la performance, especialmente en listas dinámicas donde los elementos pueden cambiar.
+```
